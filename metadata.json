@@ -1,0 +1,6 @@
+{
+  "name": "CrowdFund Platform",
+  "description": "A comprehensive crowdfunding platform supporting Supporters, Creators, and Admins to manage campaigns, contributions, and withdrawals with real-time notifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

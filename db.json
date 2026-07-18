@@ -1,0 +1,220 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Admin User",
+      "email": "admin@gmail.com",
+      "photoUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "passwordHash": "admin123",
+      "role": "Admin",
+      "credits": 1000
+    },
+    {
+      "id": "u2",
+      "name": "Alex Creator",
+      "email": "creator@gmail.com",
+      "photoUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+      "passwordHash": "creator123",
+      "role": "Creator",
+      "credits": 200
+    },
+    {
+      "id": "u3",
+      "name": "Sarah Supporter",
+      "email": "supporter@gmail.com",
+      "photoUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+      "passwordHash": "supporter123",
+      "role": "Supporter",
+      "credits": 500
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "c1",
+      "title": "Solar-Powered Water Pump for Rural Farms",
+      "story": "We are developing an open-source, affordable solar-powered water pump designed for smallholder farmers in off-grid communities. This pump can draw water from up to 30 meters depth and runs entirely on renewable solar power, eliminating fuel costs and lowering carbon emissions.",
+      "category": "Technology",
+      "funding_goal": 5000,
+      "minimum_contribution": 20,
+      "deadline": "2026-11-15",
+      "reward_info": "Early Access blueprint + Solar sticker pack for pledges over 50 credits.",
+      "campaign_image_url": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=800",
+      "creator_name": "Alex Creator",
+      "creator_email": "creator@gmail.com",
+      "status": "approved",
+      "amount_raised": 4200
+    },
+    {
+      "id": "c2",
+      "title": "Ocean Plastic Sunglasses & Tech Accessories",
+      "story": "Every year, millions of tons of plastic enter our oceans. We collect this plastic and recycle it into durable, high-fashion sunglasses and workspace accessories. Every purchase funds ocean clean-ups.",
+      "category": "Community",
+      "funding_goal": 3000,
+      "minimum_contribution": 15,
+      "deadline": "2026-12-05",
+      "reward_info": "One pair of Recycled Ocean Blue Sunglasses for contributions of 150+ credits.",
+      "campaign_image_url": "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?w=800",
+      "creator_name": "Alex Creator",
+      "creator_email": "creator@gmail.com",
+      "status": "approved",
+      "amount_raised": 2800
+    },
+    {
+      "id": "c3",
+      "title": "Green Community Botanical Hub & Greenhouse",
+      "story": "Help us establish a collaborative urban greenhouse. This hub will provide free gardening workshops, distribute organic vegetable seedlings, and build a local sanctuary for bees and butterflies in the middle of our concrete jungle.",
+      "category": "Art",
+      "funding_goal": 1500,
+      "minimum_contribution": 10,
+      "deadline": "2026-10-10",
+      "reward_info": "Your name engraved on the Founder's Brick + a jar of pure community honey.",
+      "campaign_image_url": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=800",
+      "creator_name": "Alex Creator",
+      "creator_email": "creator@gmail.com",
+      "status": "approved",
+      "amount_raised": 1200
+    },
+    {
+      "id": "c4",
+      "title": "Robotic STEAM Kits for Underfunded Schools",
+      "story": "Our mission is to make science, technology, engineering, art, and math (STEAM) accessible to every student. We have developed a modular, low-cost robotics kit. Funding will cover manufacturing costs to ship 500 free kits to rural classrooms.",
+      "category": "Technology",
+      "funding_goal": 8000,
+      "minimum_contribution": 25,
+      "deadline": "2026-12-25",
+      "reward_info": "Live digital coding session with the engineering team + modular kit.",
+      "campaign_image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800",
+      "creator_name": "Alex Creator",
+      "creator_email": "creator@gmail.com",
+      "status": "approved",
+      "amount_raised": 5600
+    },
+    {
+      "id": "c5",
+      "title": "Clean Water Well Drilling in Arid Regions",
+      "story": "We are raising funds to drill three deep-water borewells in arid rural villages. This will provide consistent, clean, and safe drinking water to over 1,200 villagers, cutting down daily water retrieval walking distances by miles.",
+      "category": "Health",
+      "funding_goal": 4000,
+      "minimum_contribution": 10,
+      "deadline": "2026-09-30",
+      "reward_info": "Personalized video update from the site on the day the well starts flowing.",
+      "campaign_image_url": "/images/clean_water_well.jpg",
+      "creator_name": "Emma Watson",
+      "creator_email": "emma@gmail.com",
+      "status": "approved",
+      "amount_raised": 3800
+    },
+    {
+      "id": "c6",
+      "title": "Modular Vertical Farming System for Apartments",
+      "story": "Bring the farm into your kitchen. We have designed a smart, self-watering, and energy-efficient vertical planter that lets anyone grow fresh salads, microgreens, and strawberries indoors with zero effort.",
+      "category": "Technology",
+      "funding_goal": 6000,
+      "minimum_contribution": 30,
+      "deadline": "2026-12-01",
+      "reward_info": "Complete Indoor Herb Starter Kit with non-GMO organic seeds.",
+      "campaign_image_url": "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=800",
+      "creator_name": "Emma Watson",
+      "creator_email": "emma@gmail.com",
+      "status": "approved",
+      "amount_raised": 1500
+    },
+    {
+      "id": "c7",
+      "title": "Eco-Friendly Portable Air Purifier",
+      "story": "An air purifier constructed entirely from bio-plastics and utilizing zero-waste natural filters made of coconut fiber. Compact, rechargeable, and highly effective against pollen, dust, and VOCs.",
+      "category": "Technology",
+      "funding_goal": 2000,
+      "minimum_contribution": 20,
+      "deadline": "2026-10-30",
+      "reward_info": "Super Early Bird custom engraved air purifier unit.",
+      "campaign_image_url": "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?w=800",
+      "creator_name": "Alex Creator",
+      "creator_email": "creator@gmail.com",
+      "status": "pending",
+      "amount_raised": 0
+    }
+  ],
+  "contributions": [
+    {
+      "id": "con1",
+      "campaign_id": "c1",
+      "campaign_title": "Solar-Powered Water Pump for Rural Farms",
+      "contribution_amount": 150,
+      "supporter_email": "supporter@gmail.com",
+      "supporter_name": "Sarah Supporter",
+      "creator_name": "Alex Creator",
+      "creator_email": "creator@gmail.com",
+      "current_date": "2026-07-10",
+      "status": "approved"
+    },
+    {
+      "id": "con2",
+      "campaign_id": "c2",
+      "campaign_title": "Ocean Plastic Sunglasses & Tech Accessories",
+      "contribution_amount": 50,
+      "supporter_email": "supporter@gmail.com",
+      "supporter_name": "Sarah Supporter",
+      "creator_name": "Alex Creator",
+      "creator_email": "creator@gmail.com",
+      "current_date": "2026-07-12",
+      "status": "approved"
+    },
+    {
+      "id": "con3",
+      "campaign_id": "c1",
+      "campaign_title": "Solar-Powered Water Pump for Rural Farms",
+      "contribution_amount": 80,
+      "supporter_email": "supporter@gmail.com",
+      "supporter_name": "Sarah Supporter",
+      "creator_name": "Alex Creator",
+      "creator_email": "creator@gmail.com",
+      "current_date": "2026-07-14",
+      "status": "pending"
+    }
+  ],
+  "withdrawals": [
+    {
+      "id": "w1",
+      "creator_email": "creator@gmail.com",
+      "creator_name": "Alex Creator",
+      "withdrawal_credit": 300,
+      "withdrawal_amount": 15,
+      "payment_system": "Stripe",
+      "account_number": "acct_12345",
+      "withdraw_date": "2026-07-05",
+      "status": "approved"
+    }
+  ],
+  "payments": [
+    {
+      "id": "p1",
+      "supporter_email": "supporter@gmail.com",
+      "credits": 800,
+      "amount": 60,
+      "date": "2026-07-01"
+    }
+  ],
+  "reports": [
+    {
+      "id": "r1",
+      "campaign_id": "c6",
+      "campaign_title": "Modular Vertical Farming System for Apartments",
+      "reporter_name": "Sarah Supporter",
+      "reporter_email": "supporter@gmail.com",
+      "reason": "Campaign description is identical to a commercial retail project on another site.",
+      "date": "2026-07-13"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n1",
+      "message": "Your Contribution of 150 credits to Solar-Powered Water Pump for Rural Farms was approved by Alex Creator",
+      "toEmail": "supporter@gmail.com",
+      "actionRoute": "/dashboard",
+      "time": "2026-07-10T14:30:00Z",
+      "read": false
+    }
+  ],
+  "tokens": {}
+}
