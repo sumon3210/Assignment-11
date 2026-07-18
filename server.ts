@@ -210,7 +210,7 @@ const INITIAL_DATABASE: Database = {
       minimum_contribution: 10,
       deadline: "2026-09-30",
       reward_info: "Personalized video update from the site on the day the well starts flowing.",
-      campaign_image_url: "/images/clean_water_well.jpg",
+      campaign_image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1w07D3AC7WDsB72YPnTmOjq-obhujl2dmxSAxrEYBrQ&s=10",
       creator_name: "Emma Watson",
       creator_email: "emma@gmail.com",
       status: "approved",
