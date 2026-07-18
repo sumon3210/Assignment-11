@@ -1,20 +1,38 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+Crowdfunding Platform
 
-# Run and deploy your AI Studio app
+This is a comprehensive crowdfunding platform designed to connect creators with supporters. It features three distinct roles—Supporter, Creator, and Admin—each with tailored functionalities to manage campaigns, contributions, and platform operations seamlessly.
 
-This contains everything you need to run your app locally.
+🚀 Key Features
+Role-Based Access Control: Secure, specialized dashboards for Supporters, Creators, and Admins.
 
-View your app in AI Studio: https://ai.studio/apps/3f41bd95-9d4a-4c7b-8306-3406130ded2d
+Campaign Lifecycle Management: From creation and admin approval to real-time status tracking.
 
-## Run Locally
+Contribution System: Supporters contribute using credits; creators can manage approvals, rejections, and withdrawals.
 
-**Prerequisites:**  Node.js
+Secure Transactions: Integrated Stripe payment system for purchasing credits and managing creator withdrawals.
 
+Notification Engine: Real-time updates for status changes across the platform.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Advanced Operations: Support for image hosting via imgBB, pagination for contributions, and robust admin oversight.
+
+🛠 Tech Stack
+Frontend: React, React-Responsive Carousel/Swiper, [Insert CSS Framework/Library]
+
+Backend: [Insert Node.js/Express details]
+
+Database: MongoDB
+
+Payment Gateway: Stripe
+
+Deployment: Vercel
+
+👥 User Roles & Capabilities
+
+Role Primary Functions
+
+Supporter Discover/filter campaigns, contribute credits, track history, purchase credits.
+
+Creator Launch/manage campaigns, handle contribution approvals, request withdrawals.
+
+Admin Approve campaigns, manage user roles, resolve reports, process withdrawals.
+
